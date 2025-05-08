@@ -118,7 +118,7 @@ BOOL WINAPI debug(LPCVOID param) {
 int main(int argc,char* argv[]) {
 
     if (argc < 2 || strcmp(argv[1], "help") == 0) {
-        printf("Usage: %s <path to process> <1st half of shellcode> <second half of shellcode>\n", argv[0]);
+        printf("Usage: %s <path to process>\n", argv[0]);
     }
 
     STARTUPINFO si = { sizeof(si) };
