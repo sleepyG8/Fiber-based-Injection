@@ -9,5 +9,8 @@ This is ready to run and have a payload added
 
 Uses 2 fibers within the thread to throw EDRs off by building and loading the shellcode in 2 differnt fibers withing a remote thread
 
+For the full zine entry visit: 
+
+https://sleepyg8.github.io/FiberInjection.html
 
 
